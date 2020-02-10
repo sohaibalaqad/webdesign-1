@@ -1,0 +1,299 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+        /* home */
+.home{
+    background-color: #0a183d;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.home .difine{
+    margin: 130px 20px 0 100px;
+}
+.home .difine h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color: white;
+    margin: 0;
+}
+.home .difine h1 span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color: #ff005a;
+    text-transform: capitalize;
+}
+.home .difine p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.home .difine .download{
+    height: 65px;
+    width: 195px;
+    border-radius: 70px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 0px;
+    border: none;
+    font-size: 14px;
+    background-color: #ff005a;
+    color: white;
+    margin: 30px 10px 0 0;
+}
+.home .difine .free-trial{
+    height: 65px;
+    width: 195px;
+    border-radius: 70px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 0px;
+    border: none;
+    font-size: 14px;
+    background-color: #383b70;
+    color: white;
+    margin: 30px 10px 0 0;
+}
+.home .photo{
+    margin: 50px 100px;
+    height: 430px;
+}
+        /* part-2 */
+.part-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 0;
+}
+.part-2 .adress {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.part-2 .adress h1 {
+    margin: 0;
+    color: #0a183d;
+}
+.part-2 .ditail {
+    margin-top: 20px;
+    margin-right: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.part-2 .ditail p {
+    margin: 0;
+    color: #0a183d;
+}
+.part-2 .ditail .try{
+    height: 65px;
+    width: 195px;
+    border-radius: 70px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 0px;
+    border: none;
+    font-size: 14px;
+    background-color: #ff005a;
+    color: white;
+    margin: 30px 10px 0 0;
+}
+        /* part-3 */
+.part-3{
+    background-color: #0a183d;
+    background-image: url(image/how-to-bg.jpg);
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-size: 35%;
+    background-position: -150px 40px;
+}
+.part-3 .titele-part-3{
+    margin: 70px 0 0 100px;
+    font-size: 30px;
+}
+.part-3 .element-part-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin: 20px 100px;
+}
+.element-part-3 .box-elem-part-3 h3{
+    font-size: 24px;
+}
+.element-part-3 .box-elem-part-3 p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #979aa5;
+}
+.box-elem-part-3 .icon{
+    background-color: #ff005a;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.box-elem-part-3 .icon{
+    position: relative;
+}
+.box-elem-part-3 .icon img{
+    width: 40px;
+    position: absolute;
+    left: 30px;
+    top: 25px;
+}
+        /* part-4 */
+.part-4{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-gap: 10px;
+    padding: 50px 100px 20px 100px;
+}
+.part-4 .titele-part-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.titele-part-4 .address-tit-part-4{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;   
+    color: #08192d; 
+}
+.titele-part-4 .ditales-tit-part-4{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;   
+    color: #08192d; 
+    padding-top: 18px;
+    line-height: 35px;
+}
+.part-4 .photo-part-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding-top: 50px;
+}
+.part-4 .photo-part-4 img{
+    border-radius: 50px;
+}
+.part-4 .photo-part-4 h4{
+    text-align: center;
+    color: #08192d;
+    text-transform: capitalize;
+}
+        /* part-5 */
+.part-5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 100px;
+    background-color: #0a183d;
+    color: white;
+}
+.part-5 .plan-part-5 h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+.plan-part-5 h1 sub{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.part-5 .plan-part-5 h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #ff005a;
+    margin: 10px 0;
+}
+.part-5 .plan-part-5 p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    color: #979aa5;
+}
+.part-5 .plan-part-5 input{
+    height: 65px;
+    width: 195px;
+    border-radius: 70px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 0px;
+    border: none;
+    font-size: 14px;
+    background-color: #ff005a;
+    color: white;
+    margin: 30px 10px 0 0;
+}
+.list-part-5{
+    background-color: #1c294a;
+    border: none;
+    border-radius: 30px;
+}
+.list-part-5 ul{
+    list-style-type: none;
+    line-height: 60px;
+    margin: 50px 0 0 150px;
+    text-transform: capitalize;
+}
+.list-part-5 ul img{
+    margin-right: 20px ;
+    width: 20px
+}
+        /* part-6 */
+.part-6{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-gap: 10px;
+    padding: 50px 100px 20px 100px;
+}
+.part-6 .titele-part-6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.titele-part-6 .address-tit-part-6{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;   
+    color: #08192d; 
+}
+.titele-part-6 .ditales-tit-part-6{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;   
+    color: #0e2846; 
+    padding-top: 18px;
+    line-height: 35px;
+}
+.part-6 .photo-part-6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding-top: 50px;
+}
+.part-6 .photo-part-6 img{
+    border-radius: 50%;
+}
+.part-6 .photo-part-6 h4{
+    text-align: center;
+    color: #08192d;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.part-6 .photo-part-6 p{
+    text-align: center;
+    color: #0e2846;
+    text-transform: capitalize;
+}
+
+        /* input focus & hover */
+input:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+input:focus{
+    text-decoration: none;
+    outline: none;
+}
+/* ---( Total time ==> 6:40 hour ) */
+/* Sohaib Yossef Mohammed Alaqad */

@@ -1,0 +1,78 @@
+/* navbar */
+nav{
+    height: 112px;
+    width: 100%;
+    background-color: #08192d;
+}
+nav .logo{
+    margin: 50px 0 0 68px ;
+}
+nav ul{
+    position: absolute;
+    list-style: none;
+    left: 230px;
+    top: -2px;
+}
+nav li{
+    padding: 5px;
+    margin: 30px;
+    display: inline-block;
+}
+nav li a{
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+nav li a:hover{
+    color: #ff005a
+}
+.pages-list{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    height: auto;
+    width: 150px;
+    padding: 10px 0; 
+    top: 97px;  
+    left: 335px;
+    visibility: hidden;
+    opacity: 0;
+}
+.pages-list li{
+    margin: 5px 20px;
+}
+.pages-list a{
+    color: #08192d;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+.pages-hover:hover .pages-list{
+    visibility: visible;
+    opacity: 1;
+}
+.log-regs{
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+.log-regs a{
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+.log-regs .help{
+    color: #979aa5;
+    border-right: white solid 2px;
+    padding-right: 25px;
+}
+.log-regs .log{
+    color: white;
+}
+.log-regs .new-acc{
+    color: #ff005a
+}
